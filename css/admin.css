@@ -1,0 +1,261 @@
+/******************************************************************************
+ * File: admin.css 
+ * 
+ * admin pages stylesheet.
+ *
+ ******************************************************************************/
+
+/************************************
+ * Plugin Specific Formatting
+ */
+
+
+/*----------------------------------
+ * The Navbar
+ */
+
+#mp_amz_navbar {
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    left: -15px;
+}
+
+#mp_amz_navbar ul {
+    margin: 0px;
+}
+#mp_amz_navbar li {
+  float: left;
+  margin: 6px;
+  padding: 3px;
+}
+
+#mp_amz_navbar div.handlediv {
+    display: none;
+    visibility: hidden;
+}
+#mp_amz_navbar h3.hndle {
+    display: none;
+    visibility: hidden;
+}
+
+div#icon-MoneyPress___Amazon_Edition.icon32 {
+    background: url("../images/MoneyPress Generic 32x32.png") no-repeat scroll 3px 0px transparent;
+}
+
+
+/************************************
+ * Generic Formatting
+ */
+
+/*----------------------------------
+ * A div that looks like a button.
+ */
+.like-a-button {
+	background: #FFF; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#DDD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #FFF,  #DDD); /* for firefox 3.6+ */
+
+  border: 1px solid #BBBBBB;
+  border-radius: 3px 3px 3px 3px;
+  margin: 6px;
+  padding: 3px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+  color: #5F5E5E;
+  display: block;
+
+  /* Corners */
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+   -khtml-border-radius: 6px;
+
+   /* Shadow */
+   -moz-box-shadow: 0px 1px 3px #AAA;
+   -webkit-box-shadow: 0px 1px 3px #AAA;
+   box-shadow: 0px 1px 3px #AAA;
+}
+.like-a-button:hover {
+	background: #DDD; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDDDDD', endColorstr='#FFFFFF'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#FFF)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #DDD,  #FFF); /* for firefox 3.6+ */
+}
+.like-a-button A {
+    text-decoration:none;
+}
+
+/*----------------------------------
+ * WPCSL Magic
+ */
+
+div.csl-slplus-input {
+    float: left;
+}
+div.csl-slplus-input textarea {
+    width: 252px;
+    border: solid 1px #666666;
+}
+
+/* More Info Box */
+div.csl-slplus-moreicon {
+    background: url("../images/General_icons16.png")
+        no-repeat scroll
+        -15px 0px
+        transparent;
+    height:20px;
+    width: 20px;
+    float: left;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+div.csl-slplus-moretext {
+    display: none;
+    clear: both;
+}
+a.moreinfo_clicker {
+    text-decoration: none;
+}
+
+
+/*----------------------------------
+ * Option Packs
+ */
+ div.optionpack_box {
+    float: left;
+    background-color: #F4F4AA;
+    border: 1px solid #888844;
+    padding: 12px;
+    text-align: center;
+    width: 340px;
+    margin: 6px;
+
+  /* Corners */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+   -khtml-border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+ }
+ div.optionpack_box iframe {
+     margin: 0px auto;
+     width: 180px;
+ }
+ div.optionpack_name {
+     font-size: 17px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 12px;
+ }
+ div.optionpack_info {
+     text-align: center;
+ }
+
+
+
+
+/*----------------------------------
+ * Floats
+ */
+
+.floatright {
+    float: right;
+}
+.floatleft {
+    float: left;
+}
+
+/*----------------------------------
+ * Icons
+ */
+
+.helpicon {
+    padding-left: 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+div.icon32 {
+    background: url("../images/icons32.png") no-repeat scroll 1px 1px transparent;
+}
+
+
+/*----------------------------------
+ * Input Labels
+ */
+table.form-table tbody tr th.input_label {
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+
+/*----------------------------------
+ * CSL Theme System
+ */
+
+div.csl_themes-input {
+    float: left;
+}
+
+/* More Info Box */
+div.csl_themes-moreicon {
+    background: url("../images/General_icons16.png")
+        no-repeat scroll
+        -17px 0px
+        transparent;
+    height:20px;
+    width: 20px;
+    float: left;
+    cursor: pointer;
+    margin-top: 2px;
+}
+div.csl_themes-moretext {
+    display: none;
+    clear: both;
+}
+
+/* Required Option Box */
+div.csl_themes-reqbox {
+    clear: left;
+}
+div.csl_themes-reqicon {
+    background: url("../images/General_icons16.png")
+        no-repeat scroll
+        0px 0px
+        transparent;
+    height:16px;
+    width: 16px;
+    float: left;
+}
+div.csl_themes-reqtext {
+    float:left;
+    color: #880000;
+}
+
+/* CSL Info Section */
+div.csl_themes-csllogo {
+    float: left;
+    background: #FFFFFF;
+    padding: 12px;
+    margin: 0px 12px 0px 0px;
+    border: solid 1px black;
+}
+div.csl_themes-cslinfo {
+    float: left;
+}
+
+
+ 
+p.productbox_lvl2 {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #DFDFDF;
+    margin-left: 30px;
+    padding: 6px;
+    width: 505px;
+    text-align:center;
+}

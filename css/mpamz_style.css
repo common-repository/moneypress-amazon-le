@@ -1,0 +1,32 @@
+/**
+ ** Product display formatting
+ **/
+.mpamz-product {
+    clear: both;
+    background-color: #F8EEC0;
+    border: 1px solid #A48F2C;
+    margin: 10px 0;
+    padding: 5px;
+    min-height: 155px;
+}
+
+.mpamz-product div {
+    padding: 0 0 0 5px;
+}
+
+.mpamz-product h3 {
+    margin: 0 0 10px 0;
+    color: ##3D3D3D;
+}
+
+.mpamz-product img {
+    float: left;
+    padding: 0 5px 5px 0;
+    max-width: 150px;
+    max-height: 120px;
+}
+
+.mpamz-product li {
+    list-style: none;
+}
+

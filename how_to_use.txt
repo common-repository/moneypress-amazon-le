@@ -1,0 +1,16 @@
+<p>To use MoneyPress : Amazon Edition you only need to add a simple
+shortcode to any page where you want to show a list of Amazon products. 
+The following code will show products from your Amazon store:<br/>
+<code>[mp-amz]</code><br/>
+<br/>
+<p class="productbox_lvl2">
+<strong><a href="http://www.charlestonsw.com/product/moneypress-amazon-edition/" target="csa">MoneyPress : Amazon Edition</a></strong>
+<br>
+<a href="http://wordpress.org/support/plugin/moneypress-amazon-le/" target="csa">Forum</a>
+|
+<a class="wiki-page" href="http://www.charlestonsw.com/support/documentation/moneypress/" target="csa">Documentation</a>
+|
+<a href="http://www.charlestonsw.com/mindset/contact-us/" target="csa">Contact Us</a>
+|
+<a href="http://www.charlestonsw.com/product/moneypress-amazon-edition/" target="csa">Buy Now</a>
+</p>
